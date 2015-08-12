@@ -1,0 +1,6 @@
+alias ls='ls --color=auto'
+alias ll='ls -lh --time-style=long-iso'
+alias la='ls -lha'
+alias cp='cp -i'
+alias mv='mv -i'
+alias ..='cd ..'
