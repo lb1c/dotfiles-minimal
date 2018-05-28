@@ -5,3 +5,5 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias ..='cd ..'
 alias psqlx='psql --no-psqlrc --single-transaction --set="ON_ERROR_STOP=on"'
+alias big="du -hsx * | sort -rh | head -10"
+alias i="ip --color --brief addr"
