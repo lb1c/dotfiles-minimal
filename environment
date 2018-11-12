@@ -2,3 +2,10 @@ export EDITOR=/usr/bin/vim
 
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
+
+# Bash History Tuning
+export HISTTIMEFORMAT="%h %d %H:%M:%S "
+export HISTSIZE=10000
+export HISTFILESIZE=10000
+# Don't override but append
+shopt -s histappend
